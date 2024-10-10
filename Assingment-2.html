@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content ="width=device-width, initial-scale-1">
+  <meta name="description" content="This week we will be looking at CSS Grid">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Assignment |  2</title>
+  <!-- Add google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Add our CSS-->
+  <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+<!-- Header is a 2 column row -->
+<header>
+  <!-- Logo container-->
+  <div>
+    <a href="Assingment-2.html"><img src="./Pizza.png" alt="header logo"></a>
+  </div>
+  <!-- Site navigation -->
+  <nav>
+    <menu>
+      <li><a href="#" target="_self"> Online Orders </a></li>
+      <li><a href="#" target="_self"> Main Menu </a></li>
+      <li><a href="#" target="_self"> Earn Points </a></li>
+    </menu>
+  </nav>
+</header>
+<!-- This is a masthead / hero image -->
+<section class="lesson-masthead">
+  <h1> Welcome </h1>
+</section>
+<main>
+  <!-- 2 column row -->
+  <section>
+    <div>
+      <h3>SMALL</h3>
+      <p> Thinking of giving yourself a small and personal treat ? We present you our small pizza which comes in 4 slices(8.64 Oz) </p>
+    </div>
+    <div>
+      <img src="./SmallP.png" alt="image one">
+    </div>
+  </section>
+  <!-- 2 column row-->
+  <section>
+    <div>
+      <img src="./LargeP.png" alt="image two">
+    </div>
+    <div>
+      <h3>LARGE</h3>
+      <p> Want a pizza for 1 or 2 persons ? We present you our medium size pizza (12 Oz) if you want bigger than large
+      than look out for more options that are available in the lists.</p>
+    </div>
+  </section>
+  <!-- 6 column row-->
+  <section>
+    <div>
+      <img src="./X-large.png" alt="image three">
+    </div>
+    <div>
+      <img src="./Pizza.3.img.png" alt="image three">
+    </div>
+    <div>
+      <img src="./Pizza4.png" alt="image three">
+    </div>
+    <div>
+      <img src="./Pizza5.png" alt="image three">
+    </div>
+    <div>
+      <img src="./Pizza6.png" alt="image three">
+    </div>
+    <div>
+      <img src="./Pizza7.png" alt="image three">
+    </div>
+  </section>
+</main>
+<aside>
+  <article>
+    <figure>
+      <img src="./chicken-nuggets.png" alt="image six">
+      <figcaption>We also give Chicken-nuggets and fries with 2 pops(can or bottle)</figcaption>
+    </figure>
+  </article>
+  <article>
+    <figure>
+      <img src="./Brownies.png" alt="image six">
+      <figcaption>You and also try our desert Brownies.</figcaption>
+    </figure>
+  </article>
+  <article>
+    <article>
+      <figure>
+        <img src="./Dippings.png" alt="image six">
+        <figcaption> You can also choose some Dipping sauces to add a flavour in your pizza slices.</figcaption>
+      </figure>
+    </article>
+</aside>
+<footer>
+  <div>
+    <a href="index.html"><img src="./Panzorotiieimg.png"></a>
+  </div>
+  <div>
+    <h1> Panzorottie</h1>
+    <p>In the end we would like to introduce you our Panzorotties being provided with 1 drink
+    and 2 Dips.</p>
+  </div>
+  <div>
+    <form action="" method="post">
+      <p>NAME <input name="NAME" placeholder="Your name" type="text"></p>
+      <p>E-MAIL <input name="E-MAIL" placeholder="Your Email" type="email"></p>
+      <p>PIZZA-SIZE</p>
+        <select id="size" name="size">
+          <option value="SMALL">SMALL</option>
+          <option value="MEDIUM">MEDIUM</option>
+          <option value="LARGE">LARGE</option>
+          <option value="X-LARGE">X-LARGE</option>
+          <option type="value" name="option" value="PARTY">PARTY</option>
+        </select>
+      <p>SELECT YOUR TOPPINGS :</p>
+        <div class="toppings">
+          <label><input type="checkbox" name="topping" value="pepperoni"> Pepperoni</label>
+          <label><input type="checkbox" name="topping" value="mushrooms"> Mushrooms</label>
+          <label><input type="checkbox" name="topping" value="onions"> Onions</label>
+          <label><input type="checkbox" name="topping" value="sausage"> Sausage</label>
+          <label><input type="checkbox" name="topping" value="bacon"> Bacon</label>
+          <label><input type="checkbox" name="topping" value="extra_cheese"> Extra Cheese</label>
+          <label><input type="checkbox" name="topping" value="black_olives"> Black Olives</label>
+          <label><input type="checkbox" name="topping" value="black_olives"> Pineapple</label>
+        </div>
+        <p>DELIVERY ADDRESS <textarea placeholder="Enter your address"></textarea></p>
+
+        <input type="submit" value="PLACE ORDER">
+    </form>
+  </div>
+</footer>
+</body>
+</html>
